@@ -1,0 +1,56 @@
+@import "./components/buttons.scss" ,
+        "./abstracts/variables.scss",
+        "./base/typography.scss",
+        "./components/cover.scss",
+        "./pages/home.scss";
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&family=Fjalla+One&display=swap');
+
+header{
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(/img/code-javascript.png) center center /cover no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+}
+ul{
+  padding: 0;
+  margin: 0;
+    
+}
+
+ body{
+     margin: 0;
+     padding: 0;
+    background-color: $primaryColor;
+}
+
+
+
+.btn-head{
+    margin-left: 8.5vw;
+    color: white;
+    transition: 00.5s;
+    font-family: 'Bebas Neue', cursive;
+    list-style: none;
+    display: inline-block;
+    visibility: hidden;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-top: 20px;
+    
+   
+   
+    
+}
+
+.show{
+    
+    transition: 0.5s;
+    display: inline-block;
+    visibility: visible;
+}

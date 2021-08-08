@@ -1,0 +1,60 @@
+#aprop{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+
+    h2{
+        color: $secondaryColor;
+    }
+    p{
+        color: white;
+        font-family: 'Fjalla One', sans-serif;
+    }
+}
+
+#actu{
+    background:  linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)),
+    url(/img/code-javascript.png) center center /cover no-repeat;
+    height: 30vh;
+   
+    h1{
+        padding-top: 13vh;
+        color: $secondaryColor;
+    }
+}
+
+#competence{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Bebas Neue', cursive ;
+    text-align: center;
+
+    ul{
+        list-style: none;
+    }
+
+    h3{
+        color: $secondaryColor;
+    }
+}
+
+#competence-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive ;
+
+    ul{
+        list-style: none;
+    }
+
+    h3{
+        color: $secondaryColor;
+    }
+}

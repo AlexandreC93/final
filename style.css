@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coda&family=Fjalla+One&display=swap");
+span {
+  position: relative;
+  background-color: white;
+  height: 0.5vh;
+  width: 6vw;
+  margin: 5px;
+  top: -80px;
+  z-index: 1;
+}
+
+#hamburger {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 1;
+}
+#hamburger #burger {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+  height: 8vh;
+  top: -30px;
+  width: 6vw;
+}
+#hamburger input:checked ~ span:first-child {
+  transform: rotateX(20px);
+  transform: rotateY(2px);
+}
+#hamburger span:nth-last-child(2) {
+  transition: 0.5s;
+}
+#hamburger input:checked ~ span:nth-last-child(2) {
+  transition: 0.5s;
+  opacity: 0;
+}
+
+#name {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+#name button {
+  margin-top: 20vh;
+}
+
+.cv {
+  position: relative;
+  right: -95px;
+  margin: 10vh;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+
+.name {
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-family: "Coda", cursive;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Coda", cursive;
+  color: white;
+  text-align: center;
+}
+
+.img-aprop {
+  width: 25vw;
+  height: 15vh;
+  padding: 5vh;
+  border-radius: 50px;
+}
+
+#aprop {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+}
+#aprop h2 {
+  color: #da8517;
+}
+#aprop p {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#actu {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)), url(/img/code-javascript.png) center center/cover no-repeat;
+  height: 30vh;
+}
+#actu h1 {
+  padding-top: 13vh;
+  color: #da8517;
+}
+
+#competence {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+#competence ul {
+  list-style: none;
+}
+#competence h3 {
+  color: #da8517;
+}
+
+#competence-2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: white;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+#competence-2 ul {
+  list-style: none;
+}
+#competence-2 h3 {
+  color: #da8517;
+}
+
+header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(19, 18, 18, 0.781) 95.24%, rgba(28, 28, 28, 0.4)), url(/img/code-javascript.png) center center/cover no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4b174b;
+}
+
+.btn-head {
+  margin-left: 8.5vw;
+  color: white;
+  transition: 0.5s;
+  font-family: "Bebas Neue", cursive;
+  list-style: none;
+  display: inline-block;
+  visibility: hidden;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  padding-top: 20px;
+}
+
+.show {
+  transition: 0.5s;
+  display: inline-block;
+  visibility: visible;
+}
+
+/*# sourceMappingURL=style.css.map */
